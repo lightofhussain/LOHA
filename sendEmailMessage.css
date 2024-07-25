@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppin',sans-serif;
+}
+body{
+    display: flex;
+    height: 100vh;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    
+}
+.title-cooperative{
+    text-align: center;
+    font-size: 26px;
+    width: 100%;
+    margin-bottom: 10px;
+    background:linear-gradient(45deg,orange, red);
+    color:white;
+    border-radius: 10px;
+}
+
+.x-button{
+    display: flex;
+    justify-content: flex-end;
+  align-items: center;
+  margin-right: 20px;
+  margin-bottom: 3px;
+}
+.contact-container{
+    /* max-width: 700px; */
+    height: 100%;
+    width: 100%;
+    background: #fff;
+    padding: 10px 30px;
+    border-radius: 5px;
+    background: linear-gradient(135deg, #71b7e6,#9b59b6);
+}
+
+.container .title{
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+}
+.container .title::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 30px;
+    background: linear-gradient(135deg, #71b7e6,#9b59b6);
+}
+.contact-container textarea{
+    height: 165px;
+    width: 100%;
+}
+.contact-inputs{
+    padding: 3px;
+    margin: 3px 3px 3px 3px;
+    border-radius: 5px;
+}
+.contact-btn{
+    border-radius:15px;
+    height: 35px;
+    width: 150px;
+    border: none;
+    
+
+}
+.contact-btn:hover{
+    background: linear-gradient(135deg,#9b59b6, #71b7e6);
+}
+
+
+
+
+
+
+
+
