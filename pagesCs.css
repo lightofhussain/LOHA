@@ -40,6 +40,7 @@ body{
         margin-left: 5px;
         font-size: 30px;
         font-weight: 600;
+        margin-bottom: 10px;
 }
 
 .loha a,.loha-x a{
@@ -79,18 +80,21 @@ body{
 /*=================== file text display =====================================*/
 .text-file{
     width: 100vw;
-    height: 50vh;
+    height: 70vh;
     overflow: hidden;
     overflow-y: scroll;
+    margin-top: 10px;
 }
 #file-content{
     width: 95vw;
-    height: 100vh;
-    margin-left: 30px;
+    height: 60vh;
+    margin-left: 10px;
+    margin-top: 2px;
     text-align:left;
     padding: 3px;
     background-color: lightblue;
-    margin-top: 3px;
+    background: linear-gradient(125deg,red,white);
+  
     border-radius: 10px;
 }
 
