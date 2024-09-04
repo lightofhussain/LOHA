@@ -104,9 +104,9 @@ font-size:18px;
     }  
 
 .display-3{
-    margin-top:450px;
+    margin-top:150px;
     margin-left:610px;
-    font-size: 25px;
+    font-size: 55px;
     color:#c471ed;
     animation: bgText 5.5s linear infinite;
     background-image: linear-gradient(-250deg,red 0%,green 50%, white 100%);
