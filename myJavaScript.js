@@ -11,7 +11,10 @@ function fnButtons(id){
       // Join us
       window.location = "joinUs.html"
    }
-  
+     if(id===2){
+      // Join us
+      window.location = "casestudy.html"
+   }
 
 if(id===4){
    // our plan
