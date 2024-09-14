@@ -305,6 +305,16 @@ body{
     justify-content: center;
     gap: 10px;
     background: linear-gradient(45deg, blue,red);
+   
+}
+.about-p{
+    color: white;
+    padding: 5px;
+    margin-bottom: 2px;
+    border: 1px solid gold;
+    border-radius: 10px;
+    box-shadow: inset 3px 3px 3px red;
+    margin-bottom: 5px;
 }
 .casestudy-img img{
     width: 450px;
@@ -314,18 +324,24 @@ body{
     border-radius: 10px;
     margin-right: 5px;
     margin-top: 5px;
+    box-shadow: inset 3px 3px 3px red;
+  
 }
+
 .advantage{
-   background: linear-gradient(45deg, blue,white);
+   background: linear-gradient(45deg, blue,black);
+   padding: 5px;
+   border: 1px solid gold;
+   border-radius: 10px;
+   box-shadow: inset 3px 3px 3px red;
+   margin-bottom: 5px;
+ 
 }
 .advantage p{
     font-size: 13px;
     color: white;
+    padding: 5px;
 }
-
-
-
-
 
 @media (max-width:1000px){
     .casestudy-container{
